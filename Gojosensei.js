@@ -2750,7 +2750,7 @@ break
 	        case 'tiktokd': case 'tiktoknowmx': {
                 if (!text) return reply(`Enter Query Link!`)
                 reply(mess.wait)
-                let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
+                let anu = await fe>tchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
                 let buttons = [
                     {buttonId: `tiktokwm ${text}`, buttonText: {displayText: '🥬With Watermark🥬'}, type: 1},
                     {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '🎵Audio🎵'}, type: 1}
@@ -3461,14 +3461,14 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `「 مرحبا 👋🏻  」◣
-		    「 معك بوت غوجو 🤗 」◣
-		    「 افضل بوت عربي 」◣
+		    「معك بوت بسبوس 🇯🇲🤗 」◣
+		    「 🇸🇩افضل بوت عربي 」◣
 
- 「 رابط شرح كيف تصنع بوت عربي طريقة سهله راقب وتعلم. ولاتنسى الاشتراك بالقناة」◣
-		    「https://youtu.be/MBPIx3f-VIA」◣
-		    「 اتمنى ان تعملو اشتراك للقناة وتنشروها اذا تقدرو عشان ينتشر المقطع كمان والكل يستفيد وجزاه الله خير الي يشترك 💖🤗」◣                 
+  رابط قناة اليوتيوب      」◣
+		    「https://youtu.be/gIW_MsfBXPg」◣
+		                      
  「 رابط فرع التعليم على البوت」◣
-		    「https://chat.whatsapp.com/Gb62eN2S5yI9mhfdn6Ma4z」◣
+		    「https://chat.whatsapp.com/I2t980Jrp3zEjVum6kdsmU」◣
 		    「 الي محتاج شروحات ينضم 」◣`,
                     description: `「 اختر قائمة من فضلك 」◣`,
                     buttonText: "「 القائمة 」◣",
@@ -3603,7 +3603,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 「 نرحب بالجميع. 」◣`)
             }
             break
-case '9807786789678': {
+case '24993944651': {
   	anu = `
 ┏━「 *${botname}* 」━━⭓ 
 ┃╔══☯︎「 MAIN 」☯︎
